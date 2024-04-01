@@ -7,7 +7,7 @@ Server = __import__('3-hypermedia_del_pagination').Server
 
 server = Server()
 
-server.indexed_dataset()
+server.get_hyper_index(index, page_size)()
 
 try:
     server.get_hyper_index(300000, 100)
